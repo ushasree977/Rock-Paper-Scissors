@@ -5,7 +5,7 @@ player_wins = 0
 
 
 def choose_option():
-    user_choice = input("choose Rcck,Paper or Scissor :\n")
+    user_choice = input("choose Rcck,Paper or Scissor :")
     if user_choice in ["Rock", "rock", "r", "R"]:
         user_choice = "r"
     elif user_choice in {"Paper", "paper", "p", "P"}:
